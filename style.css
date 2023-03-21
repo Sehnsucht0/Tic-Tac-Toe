@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #e2e8f0;
+}
+
+.container {
+    height: 50vh;
+    width: 25vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+    border: 1px solid black;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-results {
+    color: black;
+    font-size: 4rem;
+    height: 4rem;
+}
